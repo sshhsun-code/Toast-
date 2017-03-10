@@ -12,7 +12,7 @@ import android.view.WindowManager;
  */
 
 public class SystemToastWindow implements View.OnClickListener{
-
+	//系统Toast悬浮窗		
     protected WindowManager mWindowManager;
     protected WindowManager.LayoutParams mLayoutParams;
     protected Context mContext;
