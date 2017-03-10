@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
  */
 
 public class FloatToastManager {
-
+    //反射Toast的使用类
     private Context mContext;
     private Field mParamsField;
     private WindowManager.LayoutParams mParams;

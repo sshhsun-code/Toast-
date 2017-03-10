@@ -12,7 +12,7 @@ import android.view.WindowManager;
  */
 
 public class FloatToastWindow implements View.OnClickListener{
-
+    //使用反射Toast的悬浮窗
     protected FloatToastManager mfloatToastManager;
     protected Context mContext;
     protected View mView;
