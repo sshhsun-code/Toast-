@@ -6,6 +6,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 /**
  * Created by sunqi on 2017/3/10.
@@ -22,6 +23,7 @@ public class FloatToastWindow implements View.OnClickListener{
     private void initView() {
         View rootView = LayoutInflater.from(mContext).inflate(R.layout.system_float_window_layout,null);
         mView = rootView;
+        ((TextView)mView.findViewById(R.id.guide)).setText("反射使用Toast悬浮窗");
         mView.findViewById(R.id.emui_window_close).setOnClickListener(this);
     }
 
